@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2589693316C9BC1200A41F1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2589693216C9BC1100A41F1A /* UIKit.framework */; };
+		2589693516C9BC1200A41F1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2589693416C9BC1200A41F1A /* Foundation.framework */; };
+		2589693716C9BC1200A41F1A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2589693616C9BC1200A41F1A /* CoreGraphics.framework */; };
+		2589693D16C9BC1200A41F1A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2589693B16C9BC1200A41F1A /* InfoPlist.strings */; };
+		2589693F16C9BC1200A41F1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2589693E16C9BC1200A41F1A /* main.m */; };
+		2589694316C9BC1200A41F1A /* MMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2589694216C9BC1200A41F1A /* MMAppDelegate.m */; };
+		2589694516C9BC1200A41F1A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2589694416C9BC1200A41F1A /* Default.png */; };
+		2589694716C9BC1200A41F1A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2589694616C9BC1200A41F1A /* Default@2x.png */; };
+		2589694916C9BC1200A41F1A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2589694816C9BC1200A41F1A /* Default-568h@2x.png */; };
+		2589694C16C9BC1200A41F1A /* MMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2589694B16C9BC1200A41F1A /* MMViewController.m */; };
+		2589694F16C9BC1200A41F1A /* MMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2589694D16C9BC1200A41F1A /* MMViewController.xib */; };
+		2589695A16C9CF5400A41F1A /* MMSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 2589695916C9CF5400A41F1A /* MMSong.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2589692F16C9BC1100A41F1A /* SongHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SongHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2589693216C9BC1100A41F1A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2589693416C9BC1200A41F1A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2589693616C9BC1200A41F1A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2589693A16C9BC1200A41F1A /* SongHack-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SongHack-Info.plist"; sourceTree = "<group>"; };
+		2589693C16C9BC1200A41F1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2589693E16C9BC1200A41F1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2589694016C9BC1200A41F1A /* SongHack-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SongHack-Prefix.pch"; sourceTree = "<group>"; };
+		2589694116C9BC1200A41F1A /* MMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMAppDelegate.h; sourceTree = "<group>"; };
+		2589694216C9BC1200A41F1A /* MMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMAppDelegate.m; sourceTree = "<group>"; };
+		2589694416C9BC1200A41F1A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2589694616C9BC1200A41F1A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2589694816C9BC1200A41F1A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2589694A16C9BC1200A41F1A /* MMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMViewController.h; sourceTree = "<group>"; };
+		2589694B16C9BC1200A41F1A /* MMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMViewController.m; sourceTree = "<group>"; };
+		2589694E16C9BC1200A41F1A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MMViewController.xib; sourceTree = "<group>"; };
+		2589695816C9CF5400A41F1A /* MMSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMSong.h; path = ../MMSong.h; sourceTree = "<group>"; };
+		2589695916C9CF5400A41F1A /* MMSong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMSong.m; path = ../MMSong.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2589692C16C9BC1100A41F1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2589693316C9BC1200A41F1A /* UIKit.framework in Frameworks */,
+				2589693516C9BC1200A41F1A /* Foundation.framework in Frameworks */,
+				2589693716C9BC1200A41F1A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2589692616C9BC1100A41F1A = {
+			isa = PBXGroup;
+			children = (
+				2589693816C9BC1200A41F1A /* SongHack */,
+				2589693116C9BC1100A41F1A /* Frameworks */,
+				2589693016C9BC1100A41F1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2589693016C9BC1100A41F1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2589692F16C9BC1100A41F1A /* SongHack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2589693116C9BC1100A41F1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2589693216C9BC1100A41F1A /* UIKit.framework */,
+				2589693416C9BC1200A41F1A /* Foundation.framework */,
+				2589693616C9BC1200A41F1A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2589693816C9BC1200A41F1A /* SongHack */ = {
+			isa = PBXGroup;
+			children = (
+				2589695816C9CF5400A41F1A /* MMSong.h */,
+				2589695916C9CF5400A41F1A /* MMSong.m */,
+				2589694116C9BC1200A41F1A /* MMAppDelegate.h */,
+				2589694216C9BC1200A41F1A /* MMAppDelegate.m */,
+				2589694A16C9BC1200A41F1A /* MMViewController.h */,
+				2589694B16C9BC1200A41F1A /* MMViewController.m */,
+				2589694D16C9BC1200A41F1A /* MMViewController.xib */,
+				2589693916C9BC1200A41F1A /* Supporting Files */,
+			);
+			path = SongHack;
+			sourceTree = "<group>";
+		};
+		2589693916C9BC1200A41F1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2589693A16C9BC1200A41F1A /* SongHack-Info.plist */,
+				2589693B16C9BC1200A41F1A /* InfoPlist.strings */,
+				2589693E16C9BC1200A41F1A /* main.m */,
+				2589694016C9BC1200A41F1A /* SongHack-Prefix.pch */,
+				2589694416C9BC1200A41F1A /* Default.png */,
+				2589694616C9BC1200A41F1A /* Default@2x.png */,
+				2589694816C9BC1200A41F1A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2589692E16C9BC1100A41F1A /* SongHack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2589695216C9BC1200A41F1A /* Build configuration list for PBXNativeTarget "SongHack" */;
+			buildPhases = (
+				2589692B16C9BC1100A41F1A /* Sources */,
+				2589692C16C9BC1100A41F1A /* Frameworks */,
+				2589692D16C9BC1100A41F1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SongHack;
+			productName = SongHack;
+			productReference = 2589692F16C9BC1100A41F1A /* SongHack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2589692716C9BC1100A41F1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MM;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Ian Blue";
+			};
+			buildConfigurationList = 2589692A16C9BC1100A41F1A /* Build configuration list for PBXProject "SongHack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2589692616C9BC1100A41F1A;
+			productRefGroup = 2589693016C9BC1100A41F1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2589692E16C9BC1100A41F1A /* SongHack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2589692D16C9BC1100A41F1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2589693D16C9BC1200A41F1A /* InfoPlist.strings in Resources */,
+				2589694516C9BC1200A41F1A /* Default.png in Resources */,
+				2589694716C9BC1200A41F1A /* Default@2x.png in Resources */,
+				2589694916C9BC1200A41F1A /* Default-568h@2x.png in Resources */,
+				2589694F16C9BC1200A41F1A /* MMViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2589692B16C9BC1100A41F1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2589693F16C9BC1200A41F1A /* main.m in Sources */,
+				2589694316C9BC1200A41F1A /* MMAppDelegate.m in Sources */,
+				2589694C16C9BC1200A41F1A /* MMViewController.m in Sources */,
+				2589695A16C9CF5400A41F1A /* MMSong.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2589693B16C9BC1200A41F1A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2589693C16C9BC1200A41F1A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2589694D16C9BC1200A41F1A /* MMViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2589694E16C9BC1200A41F1A /* en */,
+			);
+			name = MMViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2589695016C9BC1200A41F1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2589695116C9BC1200A41F1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2589695316C9BC1200A41F1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SongHack/SongHack-Prefix.pch";
+				INFOPLIST_FILE = "SongHack/SongHack-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2589695416C9BC1200A41F1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SongHack/SongHack-Prefix.pch";
+				INFOPLIST_FILE = "SongHack/SongHack-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2589692A16C9BC1100A41F1A /* Build configuration list for PBXProject "SongHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2589695016C9BC1200A41F1A /* Debug */,
+				2589695116C9BC1200A41F1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2589695216C9BC1200A41F1A /* Build configuration list for PBXNativeTarget "SongHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2589695316C9BC1200A41F1A /* Debug */,
+				2589695416C9BC1200A41F1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2589692716C9BC1100A41F1A /* Project object */;
+}
